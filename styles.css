@@ -1,0 +1,77 @@
+* {
+box-sizing: border-box;
+margin: 0 auto;
+}
+
+html {
+  background-color: black;
+}
+
+i {
+  background-color: white;
+  color: black;
+}
+
+body {
+  margin: 2% 15%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-content: stretch;
+  align-items: center;
+}
+
+header, footer {
+  width: 100%;
+  flex-basis: 20%;
+}
+
+h1 {
+  background-color: rgb(66, 138, 201);
+  font-family: sans-serif;
+  color: white;
+  font-weight: 100;
+  padding: 2%;
+}
+
+fieldset {
+  background-color: #FFFFFF;
+  width: 100%;
+  padding: 3% 2%;
+}
+
+input {
+  margin: 1% 0%;
+  font-size: 0.8em;
+  padding: 1%;
+}
+
+textarea {
+  color:
+  margin: 1% 0%;
+  font-size: 0.8em;
+  padding: 1%;
+}
+
+select {
+  margin: 1% 0%;
+  font-size: 0.8em;
+}
+
+select option {
+  width: 100%;
+}
+
+
+footer {
+  background-color: rgb(201, 222, 240);
+  padding: 2%;
+}
+
+footer button {
+  background-color: rgb(66, 138, 201);
+  color: white;
+  border: none;
+  padding: 1.5%;
+}
