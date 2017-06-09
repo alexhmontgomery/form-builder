@@ -35,9 +35,12 @@ h1 {
   padding: 2%;
 }
 
-fieldset {
+form {
   background-color: #FFFFFF;
   width: 100%;
+}
+
+fieldset {
   padding: 3% 2%;
 }
 
